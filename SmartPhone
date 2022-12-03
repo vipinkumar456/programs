@@ -1,0 +1,36 @@
+class SmartPhone extends Phone
+{
+	SmartPhone()
+	{
+	System.out.println("this is a smart phone");
+	}
+	SmartPhone(int inch)
+	{
+	System.out.println("this is a "+inch+" inch");
+	}
+	void fm()
+	{
+	 System.out.println("this has a fm");
+	}
+	abstract void ram()
+	{
+		System.out.println("this has 32 gb rom");
+	}
+	void rom()
+	{
+	 
+	  System.out.println("phone have 64 gb rom");
+	}
+	void camera()
+	{
+	 System.out.println("this has a camera");
+	}
+}
+	class SmartPhone{
+		public static void main(String args[]){
+		SmartPhone s=new Phone();
+		s.ram();
+		
+	}
+
+}
